@@ -1,0 +1,275 @@
+.header{
+  background-color: black;
+  font-weight: bold;
+  font-style: italic;
+  font-family: serif;
+  color: white;
+  padding-left: 30px;
+  border-style:none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  font-size: 45px;
+}
+.buy:hover{
+   background-color: black;
+   color: white;
+   border-radius: 50%
+   border-style:double;
+   font-size: 20px;
+
+}
+.buy{
+
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   font-style: oblique;
+   font-weight: bold;
+   margin: 10px 25px;
+}
+
+.m2{
+ margin: 20px 25px;
+ padding-left: 100px;
+ padding-bottom: : 50px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: DodgerBlue;
+  overflow:auto;
+}
+.topnav {
+
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 10px;
+    padding: 14px 26px;
+
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: orange;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: green;
+    color: white;
+}
+/*slider*/
+@keyframes slider {
+
+  0%{
+     left: 0;
+  }
+
+  20%{
+     left: 0;
+  }
+
+  25%{
+     left: -100%;
+  }
+  40%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  60%{
+    left:  -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  80%{
+    left: -300%;
+  }
+
+  95%{
+    left: -400%;
+  }
+  100%{
+    left: -400%;
+  }
+}
+
+#slider{
+  overflow: hidden;
+}
+#slider figure img{
+  width: 20%;
+  height: 50%;
+  float: left;
+}
+#slider figure{
+  position: relative;
+  width: 500%;
+  padding-top: 20px;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slider infinite;
+}
+/*bottom navigation
+.topnav {
+
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.bottomnav{
+  overflow: hidden;
+  padding-left: 250px;
+  padding-top: 50px;
+}
+
+.bottomnav a {
+
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    text-decoration: none;
+    font-size: 17px;
+}
+.bottomnav a img{
+ padding-left: 275px;
+
+}
+.bottomnav a:hover {
+    background-color: DodgerBlue;
+    color: black;
+     padding-left: 275px;
+}
+/*product*/
+.products{
+
+  width: 30%;
+  float: left;
+  height: 85%;
+  margin-left: 5px;
+  padding-left: 20px;
+margin-bottom: 10px;
+
+}
+.products b{
+    float: right;
+    background-color: white;
+    font-size: 25px;
+    font-style: oblique;
+    padding-top:10px;
+
+}
+.products table{
+  border-width: thin;
+  border-style: inset;
+  width: 100%;
+  background-color: green;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0px;
+}
+.products a{
+
+  background-color: green;
+    font-size: 20px;
+}
+.products button{
+  margin-top:10px;
+  padding-bottom: 8px;
+  margin-left: 135px;
+
+
+}
+.products button:hover{
+  background-color: green;
+  color: white;
+}
+.product-container {
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 100px;
+  padding-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+
+}
+/*contact page*/
+.products p{
+  font-size: 20px;
+  color: white;
+}
+/*fotter*/
+.fotter{
+background-color: black;
+width: 100%;
+padding-top: 175px;
+
+}
+/*piza page*/
+.pageT{
+
+  padding-left: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: serif;
+  color: white;
+  font-size: 35px;
+
+
+}
+.Subv{
+  padding-top: 100px;
+  background-color: green;
+  color: white;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.SubNV{
+  padding-top: 100px;
+  background-color:Red;
+  color: white;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+/*loged in page css */
+.content p{
+  float: left;
+}
+/*contact */
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
